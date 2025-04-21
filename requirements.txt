@@ -5,13 +5,16 @@ transformers>=4.30.0
 torch>=2.0.0
 streamlit>=1.22.0
 pyyaml>=6.0
-pyobjc-framework-FSEvents>=9.2
-pyobjc-framework-Cocoa>=9.2
 pandas==2.2.0
 openpyxl>=3.1.2
 PyPDF2>=3.0.0
 python-magic>=0.4.27
 tqdm>=4.65.0
+
+# macOS-specific dependencies (optional)
+pyobjc-framework-FSEvents>=9.2; sys_platform == 'darwin'
+pyobjc-framework-Cocoa>=9.2; sys_platform == 'darwin'
+
 # Development dependencies
 pytest>=7.3.1
 pytest-cov>=4.1.0
