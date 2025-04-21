@@ -1,0 +1,17 @@
+ai_settings:
+  device: cpu
+  model: facebook/bart-large-mnli
+destination_directory: ./organized
+logging:
+  file: logs/file_organizer.log
+  level: INFO
+source_directory: ./source
+supported_extensions:
+- .pdf
+- .docx
+- .txt
+- .md
+- .pptx
+- .dmg
+- .xlsx
+- .epub
