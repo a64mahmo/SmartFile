@@ -1,11 +1,20 @@
 PyMuPDF==1.24.0
-python-docx==0.8.11
-python-pptx==0.6.21
-transformers==4.36.2
-torch
-streamlit==1.28.0
-pyyaml==6.0.1
+python-docx>=0.8.11
+python-pptx>=0.6.21
+transformers>=4.30.0
+torch>=2.0.0
+streamlit>=1.22.0
+pyyaml>=6.0
 pyobjc-framework-FSEvents>=9.2
 pyobjc-framework-Cocoa>=9.2
 pandas==2.2.0
-openpyxl==3.1.2 
+openpyxl>=3.1.2
+PyPDF2>=3.0.0
+python-magic>=0.4.27
+tqdm>=4.65.0
+# Development dependencies
+pytest>=7.3.1
+pytest-cov>=4.1.0
+flake8>=6.0.0
+black>=23.3.0
+codecov>=2.1.12 
