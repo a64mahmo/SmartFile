@@ -6,7 +6,7 @@ An intelligent file organization system that uses AI to analyze and categorize f
 
 - Scans directories for files
 - Extracts text content from various file types (PDF, DOCX, TXT, MD)
-- Uses OpenAI's GPT models to analyze content and suggest categories
+- Uses AI models to analyze content and suggest categories
 - Automatically organizes files into category-based directories
 - Provides a Streamlit-based web interface for configuration and monitoring
 - Comprehensive logging of all operations
@@ -15,7 +15,7 @@ An intelligent file organization system that uses AI to analyze and categorize f
 
 1. Clone the repository:
 ```bash
-[git clone https://github.com/a64mahmo/SmartFile](https://github.com/a64mahmo/SmartFile)
+git clone https://github.com/a64mahmo/SmartFile
 cd SmartFile
 ```
 
