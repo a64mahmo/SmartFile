@@ -26,7 +26,6 @@ pip install -r requirements.txt
 
 3. Configure the application:
    - Copy `config.yaml` and update it with your settings
-   - Add your OpenAI API key to the configuration
 
 ## Usage
 
