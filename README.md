@@ -15,8 +15,8 @@ An intelligent file organization system that uses AI to analyze and categorize f
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-file-organizer.git
-cd ai-file-organizer
+[git clone https://github.com/a64mahmo/SmartFile](https://github.com/a64mahmo/SmartFile)
+cd SmartFile
 ```
 
 2. Install dependencies:
@@ -44,7 +44,6 @@ streamlit run ui_streamlit.py
 
 Edit `config.yaml` to customize:
 - Source and destination directories
-- OpenAI API settings
 - Supported file types
 - Logging configuration
 
@@ -66,7 +65,6 @@ ai-file-organizer/
 ## Requirements
 
 - Python 3.8+
-- OpenAI API key
 - Dependencies listed in requirements.txt
 
 ## License
